@@ -25,6 +25,10 @@ tab:CreateDropdown("Word",{"Sung","Jin","Woo"},function(a)
 print(a)
 end)
 
+tab:CreateColorPicker("Pick a Color", function(color)
+    print("Selected color: " .. tostring(color))
+end)
+
 tab2:CreateButton("Hello",function()
 print("clicked")
 end)
