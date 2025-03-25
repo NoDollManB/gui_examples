@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))() --Library link
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoDollManB/gui/refs/heads/main/source.lua"))() --Library link
 
 local Window = Library.CreateLib("TITLE", "DarkTheme") -- Create Window
 
